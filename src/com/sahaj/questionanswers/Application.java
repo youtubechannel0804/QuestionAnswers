@@ -15,6 +15,6 @@ public class Application {
     public static void main(String[] args) throws ApplicationException {
         AnswerController answerController = new AnswerController();
         ApplicationContext applicationContext = answerController.computeAnswers("paragraph.txt", "questions.txt");
-        answerController.displayAnswers(applicationContext);
+      //  answerController.displayAnswers(applicationContext);
     }
 }
